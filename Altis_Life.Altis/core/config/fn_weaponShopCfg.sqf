@@ -94,7 +94,7 @@ switch(_shop) do
 						["muzzle_snds_H",nil,275],
 						["30Rnd_65x39_caseless_mag",nil,15],
 						["30Rnd_65x39_caseless_mag_Tracer",nil,15],
-						["30Rnd_45ACP_Mag_SMG_01",nil,25]
+						["30Rnd_45ACP_Mag_SMG_01",nil,25],
 						["30Rnd_45ACP_Mag_SMG_01_tracer_green",nil,25]
 					]
 				];
