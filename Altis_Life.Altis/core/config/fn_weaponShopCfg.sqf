@@ -30,9 +30,8 @@ switch(_shop) do
 				["Altis Cop Shop",
 					[
 						["arifle_sdar_F","Taser Rifle",700],
-						["SMG_02_F",nil,4000],
+						["SMG_02_F",nil,400],
 						["hgun_P07_snds_F","Stun Pistol",200],
-						["HandGrenade_Stone","Flashbang",170],
 						["Binocular",nil,15],
 						["ItemGPS",nil,10],
 						["ToolKit",nil,25],
@@ -94,7 +93,9 @@ switch(_shop) do
 						["muzzle_snds_acp",nil,250],
 						["muzzle_snds_H",nil,275],
 						["30Rnd_65x39_caseless_mag",nil,15],
+						["30Rnd_65x39_caseless_mag_Tracer",nil,15],
 						["30Rnd_45ACP_Mag_SMG_01",nil,25]
+						["30Rnd_45ACP_Mag_SMG_01_tracer_green",nil,25]
 					]
 				];
 			};
@@ -113,7 +114,7 @@ switch(_shop) do
 					[
 						["launch_RPG32_F",nil,250000],
 						["srifle_EBR_MRCO_pointer_F",nil,17500],
-						["srifle_LRR_SOS_F",nil,150000],
+						["srifle_LRR_SOS_F",nil,15000],
 						["arifle_MX_GL_ACO_F",nil,12500],
 						["LMG_Mk200_F",nil,10000],
 						["HandGrenade_Stone","Flashbang",170],
@@ -124,7 +125,9 @@ switch(_shop) do
 						["muzzle_snds_B",nil,500],
 						["muzzle_snds_H_MG",nil,500],
 						["30Rnd_65x39_caseless_mag",nil,20],
+						["30Rnd_65x39_caseless_mag_Tracer",nil,20],
 						["200Rnd_65x39_cased_Box",nil,50],
+						["200Rnd_65x39_cased_Box_Tracer",nil,50],
 						["20Rnd_762x51_Mag",nil,50],
 						["1Rnd_HE_Grenade_shell",nil,100],
 						["7Rnd_408_Mag",nil,100],
@@ -162,6 +165,9 @@ switch(_shop) do
 						["30Rnd_9x21_Mag",nil,20],
 						["20Rnd_556x45_UW_mag",nil,120],
 						["30Rnd_556x45_Stanag",nil,30],
+						["30Rnd_556x45_Stanag_Tracer_Red",nil,30],
+						["30Rnd_556x45_Stanag_Tracer_Green",nil,30],
+						["30Rnd_556x45_Stanag_Tracer_Yellow",nil,30],
 						["10Rnd_762x51_Mag",nil,50],
 						["30Rnd_65x39_caseless_green",nil,270],
 						["launch_RPG32_F",nil,250000],

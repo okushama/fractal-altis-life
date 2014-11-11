@@ -101,29 +101,24 @@ switch (_shop) do
 		_return pushBack
 		["C_SUV_01_F",15000];
 		_return pushBack
-		["B_Truck_01_transport_F",200000];
-		_return pushBack
-		["B_Truck_01_covered_F",250000];
-		_return pushBack
-		["B_Truck_01_medical_F",300000];
-		_return pushBack
-		["B_Truck_01_ammo_F",350000];
-		_return pushBack
-		["B_Truck_01_Repair_F",375000];
 		if(__GETC__(life_coplevel) > 1) then
 		{
 			_return pushBack
-			["B_MRAP_01_F",150000];
+			["B_Truck_01_transport_F",200000];
+			_return pushBack
+			["B_Truck_01_covered_F",250000];
+			_return pushBack
+			["B_Truck_01_medical_F",300000];
+			_return pushBack
+			["B_Truck_01_ammo_F",350000];
+			_return pushBack
+			["B_Truck_01_Repair_F",375000];
 		
 		};
 		if(__GETC__(life_coplevel) > 2) then
 		{
 			_return pushBack
-			["B_MRAP_01_hmg_F",250000];
-			_return pushBack
-			["B_APC_Tracked_01_CRV_F",1000000];
-			_return pushBack
-			["B_APC_Tracked_01_rcws_F",1500000];
+			["B_MRAP_01_F",100000];
 			
 		};
 	};
