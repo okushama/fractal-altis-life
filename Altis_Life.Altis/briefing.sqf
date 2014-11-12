@@ -37,6 +37,7 @@ player createDiarySubject ["controls","Controls"];
 				2. Civilians must keep licensed rifles in their cars unless at a hunting area.<br/>
 				3. Civilians must follow Police instruction.<br/>
 				4. Civilians must role-play in kidnapping situations. (doesn't mean you have to comply with your kidnapper.<br/>
+				5. If a cop restraines you DO NOT get out of the vehical just to buy time.<br/>
 				"
 		]
 	];
@@ -49,6 +50,8 @@ player createDiarySubject ["controls","Controls"];
 				Welcome to the Fractal Gaming Altis Life server!<br/>
 				Teamspeak Adress: tseu5.vilayer.com:10006<br/>
 				Website/Forum: http://fractal-gaming.enjin.com/<br/>
+				All rules may be enforced by admins.
+				The administrators also have the right to punish players not breaking any of these rules but disturb in any other way. On playing at our servers you agree with them. These rules can change without any notification. Make sure you check it from time to time.<br/>
 				1. Be respectful towards everybody unless you are roleplaying.<br/>
 				2. Exploiting is bannable.<br/>
 				3. Unarmed civilian can’t be killing on sight (KOS)<br/>

@@ -100,7 +100,7 @@ switch (_shop) do
 		["C_Offroad_01_F",5000];
 		_return pushBack
 		["C_SUV_01_F",15000];
-		_return pushBack
+		
 		if(__GETC__(life_coplevel) > 1) then
 		{
 			_return pushBack
@@ -118,7 +118,11 @@ switch (_shop) do
 		if(__GETC__(life_coplevel) > 2) then
 		{
 			_return pushBack
-			["B_MRAP_01_F",100000];
+			["B_MRAP_01_F",150000];
+			_return pushBack
+			["B_APC_Tracked_01_CRV_F",1000000];
+			_return pushBack
+			["B_APC_Tracked_01_rcws_F",1500000];
 			
 		};
 	};
