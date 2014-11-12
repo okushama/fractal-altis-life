@@ -36,8 +36,8 @@ player createDiarySubject ["controls","Controls"];
 				1. Civilians must holster pistols in towns.<br/>
 				2. Civilians must keep licensed rifles in their cars unless at a hunting area.<br/>
 				3. Civilians must follow Police instruction.<br/>
-				4. Civilians must role-play in kidnapping situations. (doesn't mean you have to comply with your kidnapper.<br/>
-				5. If a cop restraines you DO NOT get out of the vehical just to buy time.<br/>
+				4. Civilians must role-play in kidnapping situations. (doesn't mean you have to comply with your kidnapper).<br/>
+				5. If a cop restraines you DO NOT get out of the vehicle just to buy time.<br/>
 				"
 		]
 	];
@@ -51,18 +51,18 @@ player createDiarySubject ["controls","Controls"];
 				Teamspeak Adress: tseu5.vilayer.com:10006<br/>
 				Website/Forum: http://fractal-gaming.enjin.com/<br/>
 				All rules may be enforced by admins.
-				The administrators also have the right to punish players not breaking any of these rules but disturb in any other way. On playing at our servers you agree with them. These rules can change without any notification. Make sure you check it from time to time.<br/>
+				The administrators also have the right to punish players not breaking any of these rules but disturbing in any other way. By playing our servers you agree to abide to our rules. These rules can change without any notification. Make sure you check it from time to time.<br/>
 				1. Be respectful towards everybody unless you are roleplaying.<br/>
 				2. Exploiting is bannable.<br/>
-				3. Unarmed civilian can’t be killing on sight (KOS)<br/>
+				3. Unarmed civilians can’t be killed on sight (KOS)<br/>
 				4. Random death matching (RDM) is not allowed under any circumstance<br/>
-				5. Vehicle death matching (VDM) (Vehicals can be used as weapons, just not randomly.)<br/>
+				5. Vehicle death matching (VDM) (Vehicles can be used as weapons, just not randomly.)<br/>
 				6. Airborne vehicle death matching (AVDM) (Same thing as VDM applies)<br/>
-				7. Corruption on bluefor is strictly against server rules <br/>
+				7. Corruption on blufor (cop side) is strictly against server rules <br/>
 				8. Metagaming in any form is bannable.<br/>
-				9. Once a criminal have been dealt with the NEW LIFE rule will prevent you from re-arresting or attacking that person.<br/>
+				9. Once a criminal has been killed by cops, the NEW LIFE rule will be in effect and prevents you from re-arresting or attacking that person over their previous crimes.<br/>
 				10. If you wish to communicate with other players please use our TeamSpeak server rather than using Side Chat - VON, unless contracting a PMC use your mobile phone.<br/>
-				11. Spamming VON and chat<br/>
+				11. No Spamming VON and chat<br/>
 				12. If you have a problem with another player take it to teamspeak do not spam VON or Chat.<br/><br/>
 				"
 		]
@@ -109,11 +109,12 @@ player createDiarySubject ["controls","Controls"];
 				Ticketing Guidelines:<br/>
 				Use your judgement, these are just rough guidelines<br/>
 				All of these are strictly guidelines and do not have to be followed to the letter.<br/>
-				• Speeding > $10,000 Ticket<br/>
-				• Possession of an illegal handgun = $20,000 Ticket and weapon removal<br/>
-				• Possession of an illegal rifle = $25,000 Ticket and weapon removal<br/>
-				• Possession of an illegal LMG = $30,000 Ticket and weapon removal<br/>
-				• Possession of illegal ordnance = $55,000 Ticket and weapon removal<br/>
+				• Trespassing Police HQ = $125 Ticket<br/>
+				• Speeding = $5,000 Ticket<br/>
+				• Possession of an illegal handgun = $10,000 Ticket and weapon removal<br/>
+				• Possession of an illegal rifle = $15,000 Ticket and weapon removal<br/>
+				• Possession of an illegal LMG = $20,000 Ticket and weapon removal<br/>
+				• Possession of illegal ordnance = $45,000 Ticket and weapon removal<br/>
 				• Possession of a legal firearm without a valid license = $20,000 Ticket & weapon removal<br/>
 				• Weapon trafficking = $40,000 Ticket and weapon removal<br/>
 				• Reckless driving = $15,000 Ticket = Vehicle Impound = Arrest<br/>
@@ -128,9 +129,11 @@ player createDiarySubject ["controls","Controls"];
 				• Crossing the border with no passport = $150,000 ticket<br/>
 				• Any drug with intent to supply = arrest<br/>
 				• Possession of Marijuana = $20,000 ticket and confiscation<br/>
-				• Possession of Cocaine = $60,000 ticket and confiscation<br/>
-				• Possession of LSD = $60,000 ticket and confiscation<br/>
-				• Possession of Heroin - $60,000 ticket and confiscation<br/><br/>
+				• Possession of Cocaine = $50,000 ticket and confiscation<br/>
+				• Possession of LSD = $50,000 ticket and confiscation<br/>
+				• Possession of Heroin - $50,000 ticket and confiscation<br/><br/>
+				
+				Try not to charge a grand total of more than $50k to any one criminal, if it does exceed this, consider sending them to jail.
 				
 				Speeding:<br/>
 				1. Inside towns and checkpoints 60 km/h<br/>
