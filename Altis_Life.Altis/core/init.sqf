@@ -2,7 +2,6 @@
 /*
 	Master client initialization file
 */
-enableEnvironment false;
 life_firstSpawn = true;
 life_session_completed = false;
 private["_handle","_timeStamp"];
