@@ -44,6 +44,11 @@ switch (_filter) do
 			_ret pushBack ["H_HelmetB_plain_mcamo",nil,75];
 			_ret pushBack ["H_Beret_blk_POLICE",nil,100];
 			_ret pushBack ["H_Booniehat_mcamo",nil,120];
+			_ret pushBack ["H_Cap_headphones",nil,120];
+			_ret pushBack ["H_MilCap_gry",nil,120];
+			_ret pushBack ["H_BandMask_khk",nil,120];
+			_ret pushBack ["H_HelmetSpecO_blk",nil,120];
+			_ret pushBack ["H_Watchcap_blk",nil,120];
 			_ret pushBack ["H_PilotHelmetHeli_B",nil,120];
 			_ret pushBack ["H_CrewHelmetHeli_B",nil,120];
 		};
@@ -84,6 +89,10 @@ switch (_filter) do
 		if(__GETC__(life_coplevel) > 1) then
 		{
 			_ret pushBack ["V_PlateCarrier2_rgr",nil,150];
+			_ret pushBack ["V_Chestrig_blk",nil,150];
+			_ret pushBack ["V_TacVestIR_blk",nil,150];
+			_ret pushBack ["V_TacVest_blk_POLICE",nil,150];
+			_ret pushBack ["V_PlateCarrier1_blk",nil,150];
 			_ret pushBack ["V_RebreatherB",nil,150];
 		};
 	};

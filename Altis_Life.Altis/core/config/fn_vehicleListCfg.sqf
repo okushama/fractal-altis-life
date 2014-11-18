@@ -85,8 +85,6 @@ switch (_shop) do
 			_return pushBack
 			["B_G_Offroad_01_armed_F",750000];
 			_return pushBack
-			["I_MRAP_03_hmg_F",1500000];
-			_return pushBack
 			["I_Heli_light_03_unarmed_F",2500000];
 			_return pushBack
 			["O_Heli_Transport_04_F",3500000];
@@ -119,10 +117,6 @@ switch (_shop) do
 		{
 			_return pushBack
 			["B_MRAP_01_F",150000];
-			_return pushBack
-			["B_APC_Tracked_01_CRV_F",1000000];
-			_return pushBack
-			["B_APC_Tracked_01_rcws_F",1500000];
 			
 		};
 	};
@@ -162,7 +156,7 @@ switch (_shop) do
 			_return pushBack
 			["B_Heli_Light_01_armed_F",3000000];
 			_return pushBack
-			["B_MRAP_01_hmg_F",750000];
+			["B_MRAP_01_F",750000];
 		};
 	};
 	

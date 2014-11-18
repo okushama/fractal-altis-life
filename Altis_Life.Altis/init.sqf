@@ -22,5 +22,8 @@ MAC_fnc_switchMove = {
     _anim = _this select 1;
 
     _object switchMove _anim;
-    
+	
+if (local player) then {  
+   player enableFatigue false;  
+   player addEventhandler ["Respawn", {player enableFatigue false}];    
 };
