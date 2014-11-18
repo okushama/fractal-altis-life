@@ -146,9 +146,18 @@ class life_admin_menu {
 		class Debug : Life_RscButtonMenu {
 			idc = 2911;
 			text = "$STR_Admin_Debug";
-			onButtonClick = "hint 'Disabled';";
+			onButtonClick = "[] spawn life_fnc_adminDebug;";
 			x = 0.58 + (6.25 / 40) + (1 / 250 / (safezoneW / safezoneH));
 			y = 0.885;
+			w = (6.25 / 40);
+			h = (1 / 25);
+		};
+		class Unrestrain : Life_RscButtonMenu {
+			idc = 2912;
+			text = "$STR_Admin_Unrestrain";
+			onButtonClick = "player setVariable['restrained',FALSE,TRUE]; hint 'unrestrained';";
+			x = 0.58 + (6.25 / 40) + (1 / 250 / (safezoneW / safezoneH));
+			y = 0.885 + (1 / 25);
 			w = (6.25 / 40);
 			h = (1 / 25);
 		};

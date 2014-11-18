@@ -147,6 +147,12 @@
 			<German>Debug</German>
 			<French>Debug</French>
 		</Key>
+		<Key ID="STR_Admin_Unrestrain">
+			<Original>Unrestrain</Original>
+			<English>Unrestrain</English>
+			<German>Unrestrain</German>
+			<French>Unrestrain</French>
+		</Key>
 		<Key ID="STR_Admin_Compensate">
 			<Original>Comp</Original>
 			<English>Comp</English>
