@@ -17,7 +17,7 @@ if(__GETC__(life_adminlevel) < 1) exitWith {closeDialog 0;};
 switch(__GETC__(life_adminlevel)) do
 {
 	case 3: {
-				_low = 2904;
+				_low = 2902;
 				_high = 2913;
 				_current = _low;
 				while(_current < _high) do {
