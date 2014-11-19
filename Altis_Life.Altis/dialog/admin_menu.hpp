@@ -152,7 +152,7 @@ class life_admin_menu {
 			w = (6.25 / 40);
 			h = (1 / 25);
 		};
-		class Unrestrain : Life_RscButtonMenu {
+		/*class Unrestrain : Life_RscButtonMenu {
 			idc = 2912;
 			text = "$STR_Admin_Unrestrain";
 			onButtonClick = "player setVariable['restrained',FALSE,TRUE]; hint 'unrestrained';";
@@ -160,6 +160,6 @@ class life_admin_menu {
 			y = 0.885 + (1 / 25);
 			w = (6.25 / 40);
 			h = (1 / 25);
-		};
+		};*/
 	};
 };
