@@ -19,9 +19,9 @@ _high = 2913;
 _current = _low;
 while(_current < _high) do {
 	ctrlShow[_current,false];
-	_current = _current +1;
-};
-
+	_current++;
+}
+	
 
 //Purge List
 lbClear _list;
