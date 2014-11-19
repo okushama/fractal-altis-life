@@ -15,7 +15,7 @@ waitUntil {!isNull (findDisplay 2900)};
 _display = findDisplay 2900;
 _list = _display displayCtrl 2902;
 _low = 2904;
-_high = 2914;
+_high = 2913;
 _current = _low;
 while(_current < _high) do {
 	ctrlShow[_current,false];

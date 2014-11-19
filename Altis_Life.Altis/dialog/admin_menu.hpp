@@ -161,20 +161,11 @@ class life_admin_menu {
 			w = (6.25 / 40);
 			h = (1 / 25);
 		};
-		class SuperPowers : Life_RscButtonMenu {
-			idc = 2913;
-			text = "$STR_Admin_SuperPowers";
-			onButtonClick = "[] call life_fnc_aceAdminSuperPowers;";
-			x = 0.1 + (6.25 / 40) + (1 / 250 / (safezoneW / safezoneH));
-			y = 0.89 + (1 / 25);
-			w = (6.25 / 40);
-			h = (1 / 25);
-		};
 		class Repair: Life_RscButtonMenu {
-			idc = 2914;
+			idc = 2913;
 			text = "$STR_Admin_RepairBuild";
 			onButtonClick = "[] call life_fnc_adminRepairBuild;";
-			x = 0.26 + (6.25 / 40) + (1 / 250 / (safezoneW / safezoneH));
+			x = 0.1 + (6.25 / 40) + (1 / 250 / (safezoneW / safezoneH));
 			y = 0.89 + (1 / 25);
 			w = (6.25 / 40);
 			h = (1 / 25);

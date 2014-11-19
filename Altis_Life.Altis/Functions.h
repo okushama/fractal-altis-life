@@ -62,7 +62,6 @@ class Life_Client_Core
 		class adminFreeze {};
 		class adminMarkers {};
 		class adminRepairBuild {};
-		class aceAdminSuperPowers();
 	}; 
 	
 	class Medical_System
