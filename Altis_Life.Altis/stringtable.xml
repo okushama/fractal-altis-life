@@ -153,6 +153,12 @@
 			<German>Unrestrain</German>
 			<French>Unrestrain</French>
 		</Key>
+		<Key ID="STR_Admin_SuperPowers">
+			<Original>Super Powers</Original>
+			<English>Super Powers</English>
+			<German>Super Powers</German>
+			<French>Super Powers</French>
+		</Key>
 		<Key ID="STR_Admin_Compensate">
 			<Original>Comp</Original>
 			<English>Comp</English>

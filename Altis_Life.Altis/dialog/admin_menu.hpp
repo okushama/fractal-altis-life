@@ -152,14 +152,23 @@ class life_admin_menu {
 			w = (6.25 / 40);
 			h = (1 / 25);
 		};
-		/*class Unrestrain : Life_RscButtonMenu {
+		class Unrestrain : Life_RscButtonMenu {
 			idc = 2912;
 			text = "$STR_Admin_Unrestrain";
-			onButtonClick = "player setVariable['restrained',FALSE,TRUE]; hint 'unrestrained';";
-			x = 0.58 + (6.25 / 40) + (1 / 250 / (safezoneW / safezoneH));
+			onButtonClick = "player setVariable['restrained',FALSE,TRUE]; hint 'Unrestrained';";
+			x = -0.06 + (6.25 / 40) + (1 / 250 / (safezoneW / safezoneH));
 			y = 0.885 + (1 / 25);
 			w = (6.25 / 40);
 			h = (1 / 25);
-		};*/
+		};
+		class SuperPowers : Life_RscButtonMenu {
+			idc = 2913;
+			text = "$STR_Admin_SuperPowers";
+			onButtonClick = "removeAllActions player; player allowDamage false; hint 'Super Powers enabled!'; _action = player addAction ['Leap', {_speed = 10; _veh = _this select 0; _vel = velocity _veh; _dir = direction _veh; _veh setVelocity[(_vel select 0) + (sin _dir * _speed), (_vel select 1) + (cos _dir * _speed), (30)]}]; _action_2 = player addAction ['Dive', {_speed = 50; _veh = _this select 0; _vel = velocity _veh; _dir = direction _veh; _veh setVelocity[(_vel select 0) + (sin _dir * _speed), (_vel select 1) + (cos _dir * _speed), ( -20)]}]; _action_3 = player addAction ['Sonic Boom', {_speed = 500; _veh = _this select 0; _vel = velocity _veh; _dir = direction _veh; _veh setVelocity[(_vel select 0) + (sin _dir * _speed), (_vel select 1) + (cos _dir * _speed), (20)]}]; _action_4 = player addAction ['Orbital Launch', {_speed = 0; _veh = _this select 0; _vel = velocity _veh; _dir = direction _veh; _veh setVelocity[(_vel select 0) + (sin _dir * _speed), (_vel select 1) + (cos _dir * _speed), (500)]}];_action_5 = player addAction ['Meteor Smash', {_speed = 0; _veh = _this select 0; _vel = velocity _veh; _dir = direction _veh; _veh setVelocity[(_vel select 0) + (sin _dir * _speed), (_vel select 1) + (cos _dir * _speed), (-500)]}];_action_6 = player addAction ['Kryptonite', {removeAllActions player; hint 'You lost your powers!'}];";
+			x = 0.1 + (6.25 / 40) + (1 / 250 / (safezoneW / safezoneH));
+			y = 0.885 + (1 / 25);
+			w = (6.25 / 40);
+			h = (1 / 25);
+		};
 	};
 };
