@@ -154,10 +154,10 @@
 			<French>Unrestrain</French>
 		</Key>
 		<Key ID="STR_Admin_SuperPowers">
-			<Original>Super Powers</Original>
-			<English>Super Powers</English>
-			<German>Super Powers</German>
-			<French>Super Powers</French>
+			<Original>Superman</Original>
+			<English>Superman</English>
+			<German>Superman</German>
+			<French>Foreigner</French>
 		</Key>
 		<Key ID="STR_Admin_Compensate">
 			<Original>Comp</Original>
@@ -166,8 +166,8 @@
 			<French>Comp</French>
 		</Key>
 		<Key ID="STR_Admin_God">
-			<Original>GodMode</Original>
-			<English>GodMode</English>
+			<Original>God</Original>
+			<English>God</English>
 			<German>Gott</German>
 			<French>Dieu</French>
 		</Key>
