@@ -6,7 +6,7 @@
 	Description:
 	Opens the admin menu, sorry nothing special in here. Take a look for yourself.
 */
-if(__GETC__(life_adminlevel) < 1) exitWith {closeDialog 0;};
+if(__GETC__(life_adminlevel) < 3) exitWith {closeDialog 0;};
 private["_display","_list","_side"];
 disableSerialization;
 waitUntil {!isNull (findDisplay 2900)};
