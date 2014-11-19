@@ -17,10 +17,10 @@ if(__GETC__(life_adminlevel) < 3) exitWith {closeDialog 0; hint localize "STR_AN
  
 if(life_god) then {
 	life_god = false;
-	titleText ["God mode disabled","PLAIN"]; titleFadeOut 2;
+	hint "God mode disabled";
 	player allowDamage true;
 } else {
 	life_god = true;
-	titleText ["God mode enabled","PLAIN"]; titleFadeOut 2;
+	hint "God mode enabled";
 	player allowDamage false;
 }; 

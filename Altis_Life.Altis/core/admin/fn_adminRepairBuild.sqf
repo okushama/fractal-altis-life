@@ -13,3 +13,4 @@ _buildings = nearestobjects [getPos player,["Building"], 10];
 {
 	_x setDamage 0;
 } forEach _buildings;
+hint 'Nearby buildings repaired?';
