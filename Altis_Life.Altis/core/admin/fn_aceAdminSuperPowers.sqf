@@ -6,7 +6,10 @@
 	Description:
 	All of space and time can be yours
 */
-if(__GETC__(life_adminlevel) == 0) exitWith {closeDialog 0;};
+
+if(__GETC__(life_adminlevel) == 0) exitWith {
+	closeDialog 0;
+};
 
 removeAllActions player; 
 hint 'Super Powers enabled!'; 
@@ -14,63 +17,59 @@ _target = vehicle player;
 _target allowDamage false; 
 
 
-_action = player addAction ['Leap', 
-{
+_action = player addAction ['Leap', {
 	_speed = 10; 
 	_vel = velocity _target; 
 	_dir = direction _target; 
 	_target setVelocity[
 		(_vel select 0) + (sin _dir * _speed), 
 		(_vel select 1) + (cos _dir * _speed), 
-		30]
+		30];
 	}
 ]; 
 
-_action_2 = player addAction ['Dive', 
-{
+_action_2 = player addAction ['Dive', {
 	_speed = 50; 
 	_vel = velocity _target; 
 	_dir = direction _target; 
 	_target setVelocity[
 		(_vel select 0) + (sin _dir * _speed), 
 		(_vel select 1) + (cos _dir * _speed), 
-		-20]
+		-20];
 	}
 ]; 
 
-_action_3 = player addAction ['Sonic Boom', 
-{	_speed = 500;
+_action_3 = player addAction ['Sonic Boom', {	_speed = 500;
 	_vel = velocity _target; 
 	_dir = direction _target; 
 	_target setVelocity[
 		(_vel select 0) + (sin _dir * _speed), 
 		(_vel select 1) + (cos _dir * _speed), 
-		20]
+		20];
 	}
 ]; 
 
-_action_4 = player addAction ['Orbital Launch', 
-{	
+_action_4 = player addAction ['Orbital Launch', {	
 	_speed = 0; 
 	_vel = velocity _target; 
 	_dir = direction _target; 
 	_target setVelocity[
 		(_vel select 0) + (sin _dir * _speed), 
 		(_vel select 1) + (cos _dir * _speed), 
-	500]}];
+		500];
+}];
 
-_action_5 = player addAction ['Meteor Smash', 
-{
+_action_5 = player addAction ['Meteor Smash', {
 	_speed = 0; 
 	_vel = velocity _target; 
 	_dir = direction _target; 
 	_target setVelocity[
 		(_vel select 0) + (sin _dir * _speed), 
 		(_vel select 1) + (cos _dir * _speed), 
-		-500]}];
+		-500];
+}];
 
-_action_6 = player addAction ['Kryptonite', 
-{
+_action_6 = player addAction ['Kryptonite', {
 	removeAllActions player;
-	hint 'You lost your powers!'
+	hint 'You lost your powers!';
 }];
