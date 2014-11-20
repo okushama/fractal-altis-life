@@ -102,6 +102,18 @@ switch (_code) do
 	case 19:
 	{
 		if(_shift) then {_handled = true;};
+		if(_shift && playerSide == civilian && !isNull cursorTarget && cursorTarget isKindOf "Man" && (isPlayer cursorTarget) && (side cursorTarget in [civilian,independent]) && alive cursorTarget && cursorTarget distance player < 3.5 && !(cursorTarget getVariable "Escorting") && !(cursorTarget getVariable "restrained") && speed cursorTarget < 1) then
+		{
+				if([false,"zipties",1] call life_fnc_handleInv) then
+			{
+				[] call life_fnc_restrainAction;
+				hint "You restrained him, use your interactionmenu for more options";
+			}
+				else
+			{
+				hint "You have no zipties!";
+			};
+		};
 		if(_shift && playerSide == west && !isNull cursorTarget && cursorTarget isKindOf "Man" && (isPlayer cursorTarget) && (side cursorTarget in [civilian,independent]) && alive cursorTarget && cursorTarget distance player < 3.5 && !(cursorTarget getVariable "Escorting") && !(cursorTarget getVariable "restrained") && speed cursorTarget < 1) then
 		{
 			[] call life_fnc_restrainAction;
@@ -172,25 +184,6 @@ switch (_code) do
 			[] call life_fnc_p_openMenu;
 		};
 	};
-	
-	//Shift+O Zipties ( Civilians can restrain )
-	case 24:
-	{
-		if(_shift) then {_handled = true;};
-			if(_shift && playerSide == civilian && !isNull cursorTarget && cursorTarget isKindOf "Man" && (isPlayer cursorTarget) && (side cursorTarget in [civilian,independent]) && alive cursorTarget && cursorTarget distance player < 3.5 && !(cursorTarget getVariable "Escorting") && !(cursorTarget getVariable "restrained") && speed cursorTarget < 1) then
-		{
-				if([false,"zipties",1] call life_fnc_handleInv) then
-			{
-				[] call life_fnc_restrainAction;
-				hint "You restrained him, use your interactionmenu for more options";
-			}
-				else
-			{
-				hint "You have no zipties!";
-			};
-		};
-	};
-	
 	//F Key
 	case 33:
 	{
