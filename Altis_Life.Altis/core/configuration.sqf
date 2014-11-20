@@ -25,6 +25,7 @@ life_impound_inuse = false;
 life_action_inUse = false;
 life_spikestrip = ObjNull;
 life_respawn_timer = 1; //Scaled in minutes
+Life_request_timer = false;
 life_knockout = false;
 life_interrupted = false;
 life_respawned = false;
