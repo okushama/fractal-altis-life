@@ -14,16 +14,6 @@ _display = findDisplay 2900;
 _list = _display displayCtrl 2902;
 if(__GETC__(life_adminlevel) < 1) exitWith {closeDialog 0;};
 
-ctrlShow[2904,false];
-ctrlShow[2905,false];
-ctrlShow[2906,false];
-ctrlShow[2907,false];
-ctrlShow[2908,false];
-ctrlShow[2909,false];
-ctrlShow[2910,false];
-ctrlShow[2911,false];
-ctrlShow[2912,false];
-ctrlShow[2913,false];
 
 //Purge List
 lbClear _list;

@@ -115,6 +115,10 @@
 			<French>Menu Admin</French>
 			<Portuguese>Menu do Admin</Portuguese>
 		</Key>
+		<Key ID="STR_Admin_Party">
+			<Original>Party</Original>
+			<English>Party</English>
+		</Key>
 		<Key ID="STR_Admin_GetID">
 			<Original>Get ID</Original>
 			<English>Get ID</English>
