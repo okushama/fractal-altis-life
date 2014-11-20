@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project name="Altis Life RPG">
 	<Package name="Global">
 		<Key ID="STR_Global_Close">
@@ -3278,6 +3278,14 @@
 			<French>Filet de Saupe</French>
 			<Italian>Carne di Salmone</Italian>
 			<Portuguese>Peixe Salema</Portuguese>
+		</Key>
+		<Key ID="STR_Item_Zipties">
+			<Original>Zipties</Original>
+			<English>Zipties</English>
+			<German>Zipties</German>
+			<French>Zipties</French>
+			<Italian>Zipties</Italian>
+			<Portuguese>Zipties</Portuguese>
 		</Key>
 		<Key ID="STR_Item_OrnateMeat">
 			<Original>Ornate Meat</Original>
