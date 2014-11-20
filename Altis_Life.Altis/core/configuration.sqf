@@ -198,7 +198,7 @@ life_licenses =
 
 life_dp_points = ["dp_1","dp_2","dp_3","dp_4","dp_5","dp_6","dp_7","dp_8","dp_9","dp_10","dp_11","dp_12","dp_13","dp_14","dp_15","dp_15","dp_16","dp_17","dp_18","dp_19","dp_20","dp_21","dp_22","dp_23","dp_24","dp_25"];
 //[shortVar,reward]
-life_illegal_items = [["heroinu",2200],["heroinp",4000],["cocaine",1500],["cocainep",3500],["marijuana",3000],["turtle",8000],["blastingcharge",10000],["boltcutter",500]];
+life_illegal_items = [["heroinu",3000],["heroinp",6000],["cocaine",3500],["cocainep",7000],["marijuana",3000],["turtle",8000],["blastingcharge",10000],["boltcutter",10000]];
 
 
 /*
@@ -207,8 +207,8 @@ life_illegal_items = [["heroinu",2200],["heroinp",4000],["cocaine",1500],["cocai
 sell_array = 
 [
 	["apple",125],
-	["heroinu",2200],
-	["heroinp",4000],
+	["heroinu",3000],
+	["heroinp",6000],
 	["salema",45],
 	["ornate",40],
 	["mackerel",175],
@@ -228,7 +228,7 @@ sell_array =
 	["pickaxe",750],
 	["redgull",200],
 	["peach",200],
-	["cocaine",3000],
+	["cocaine",3500],
 	["cocainep",7000],
 	["diamond",750],
 	["diamondc",5000],
@@ -254,8 +254,8 @@ buy_array =
 	["mullet",300],
 	["catshark",350],
 	["water",10],
-	["turtle",9000],
-	["turtlesoup",6000],
+	["turtle",10000],
+	["turtlesoup",7000],
 	["donuts",120],
 	["coffee",10],
 	["tbacon",75],
@@ -266,7 +266,7 @@ buy_array =
 	["peach",250],
 	["spikeStrip",2500],
 	["blastingcharge",100000],
-	["boltcutter",100000],
+	["boltcutter",10000],
 	["defusekit",2500],
 	["storagesmall",75000],
 	["storagebig",150000]
