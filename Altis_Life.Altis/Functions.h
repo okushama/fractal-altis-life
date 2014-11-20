@@ -249,6 +249,7 @@ class Life_Client_Core
 	{
 		file = "core\civilian";
 		class freezePlayer {};
+		class civInteractionMenu {};
 		class jailMe {};
 		class jail {};
 		class tazed {};

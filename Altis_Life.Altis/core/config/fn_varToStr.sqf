@@ -22,6 +22,7 @@ switch (_var) do
 	case "life_inv_apple": {(localize "STR_Item_Apple")};
 	case "life_inv_rabbit": {(localize "STR_Item_RabbitMeat")};
 	case "life_inv_salema": {(localize "STR_Item_SalemaMeat")};
+	case "life_inv_zipties": {(localize "STR_Item_Zipties")};
 	case "life_inv_ornate": {(localize "STR_Item_OrnateMeat")};
 	case "life_inv_mackerel": {(localize "STR_Item_MackerelMeat")};
 	case "life_inv_tuna": {(localize "STR_Item_TunaMeat")};

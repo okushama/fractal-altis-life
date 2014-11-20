@@ -50,6 +50,10 @@ if(_curTarget isKindOf "Man" && {!alive _curTarget} && {playerSide in [west,inde
 	};
 };
 
+//Zipties edit
+if((_curTarget getVariable["restrained",false]) && !dialog && playerSide == civilian) then {
+	[_curTarget] call life_fnc_civInteractionMenu;
+};
 
 //If target is a player then check if we can use the cop menu.
 if(isPlayer _curTarget && _curTarget isKindOf "Man") then {

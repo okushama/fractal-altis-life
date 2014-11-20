@@ -26,6 +26,7 @@ switch (_mode) do
 			case "water": {"life_inv_water"};
 			case "rabbit": {"life_inv_rabbit"};
 			case "salema": {"life_inv_salema"};
+			case "zipties": {"life_inv_zipties"};
 			case "ornate": {"life_inv_ornate"};
 			case "mackerel": {"life_inv_mackerel"};
 			case "tuna": {"life_inv_tuna"};
@@ -82,6 +83,7 @@ switch (_mode) do
 			case "life_inv_water": {"water"};
 			case "life_inv_rabbit": {"rabbit"};
 			case "life_inv_salema": {"salema"};
+			case "life_inv_zipties": {"zipties"};
 			case "life_inv_ornate": {"ornate"};
 			case "life_inv_mackerel": {"mackerel"};
 			case "life_inv_tuna": {"tuna"};

@@ -21,6 +21,7 @@ switch (_item) do
 	case "water": {1};
 	case "rabbit": {1};
 	case "salema": {2};
+	case "zipties": {2};
 	case "ornate": {2};
 	case "mackerel": {4};
 	case "tuna": {6};
