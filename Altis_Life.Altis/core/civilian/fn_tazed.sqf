@@ -10,8 +10,6 @@ _unit = [_this,0,Objnull,[Objnull]] call BIS_fnc_param;
 _shooter = [_this,1,Objnull,[Objnull]] call BIS_fnc_param;
 if(isNull _unit OR isNull _shooter) exitWith {player allowDamage true; life_istazed = false;};
 
-if(life_god) then {life_istazed = false;};
-
 if(_shooter isKindOf "Man" && alive player) then
 {
 	if(!life_istazed) then
