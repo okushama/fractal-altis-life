@@ -174,7 +174,7 @@ class life_admin_menu {
 			idc = -1;
 			text = "$STR_Admin_Party";
 			onButtonClick = "_smoke = 'SmokeShellGreen' createVehicle position player;if (vehicle player != player) then {_smoke attachTo [vehicle player, [-0.6,-1,0]];} else {_smoke attachTo [player, [0,-0.1,1.5]];};";
-			x = 0.1 + (6.25 / 40) + (1 / 250 / (safezoneW / safezoneH));
+			x = 0.26 + (6.25 / 40) + (1 / 250 / (safezoneW / safezoneH));
 			y = 0.89 + (1 / 25);
 			w = (6.25 / 40);
 			h = (1 / 25);
