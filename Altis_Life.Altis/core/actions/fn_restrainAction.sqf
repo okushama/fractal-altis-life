@@ -3,17 +3,18 @@
 	Author: Bryan "Tonic" Boardwine
 	
 	Description:
-	Retrains the target.
+	Restrains the target.
 */
 private["_unit"];
 _unit = cursorTarget;
 if(isNull _unit) exitWith {}; //Not valid
 if((player distance _unit > 3)) exitWith {};
 if((_unit getVariable "restrained")) exitWith {};
-if(side _unit == west) exitWith {};
+//if(side _unit == west) exitWith {};
 if(player == _unit) exitWith {};
 if(!isPlayer _unit) exitWith {};
 if (side player == civilian) then {
+	if(_unit == independent) exithWith { hint "You cannot restrain an EMS."; };
 	if(life_inv_zipties < 1) exitWith { hint "You have no zipties."; };
 	life_inv_zipties = life_inv_zipties - 1;
 	hint "You have ziptied the citizen";
